@@ -3,8 +3,7 @@
 /*   universal styles   */
 
 * {
-  font-family: Helvetica;
-  font-size: 22px;
+  font-family: "Helvetica";
   color: seashell;
   background-color: black;
   opacity: 0.9;
@@ -17,10 +16,12 @@ header {
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  top: 0;
   z-index: 1;
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
+  font-size: 22px;
 
 }
 
@@ -47,3 +48,21 @@ header span {
 }
 
 /*   main styles   */
+
+#main {
+  display: flex;
+  z-index: 0;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 700px;
+  background-image: url(../images/background.jpg);
+}
+
+#mission {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
