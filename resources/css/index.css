@@ -1,13 +1,10 @@
 * {
   text-align: center;
   color: seashell;
+  font-family: "Helvetica";
 }
 
-
-header, nav, div {
-  border: 1px solid white;
-}
-
+/*   header styles   */
 header {
   display: flex;
   justify-content: space-between;
@@ -30,7 +27,6 @@ header img {
 nav {
   text-align: right;
   padding-right: 10px;
-  font-family: "Helvetica";
   font-size: 22px;
   padding-right: 20px;
 
@@ -43,6 +39,8 @@ nav span {
 
 }
 
+
+/*   main content styles   */
 .main {
   display: flex;
   align-items: center;
@@ -50,7 +48,7 @@ nav span {
   padding-top: 60px;
   background-color: black;
   opacity: 0.9;
-
+  width: 100%;
 }
 
 #mission {
@@ -125,4 +123,28 @@ nav span {
   font-size: 22px;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+
+/*   footer styles   */
+footer {
+  background-color: black;
+  font-size: 22px;
+  opacity: 0.9;
+}
+
+.foot h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.foot {
+  height: 200px;
+  margin-top: 0px;
+}
+
+.copyright {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  text-align: left;
 }
